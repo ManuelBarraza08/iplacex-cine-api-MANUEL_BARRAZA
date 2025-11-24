@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb";
 
 const uri =
   process.env.MONGODB_URI ||
-  "mongodb+srv://manuelbarrazac8_db_user:<princesa08>@prog-webservices-s1-ej3.y67krqx.mongodb.net/?appName=prog-webservices-s1-ej3-cluster";
+  "mongodb+srv://manuelbarrazac8_db_user:princesa08@prog-webservices-s1-ej3.y67krqx.mongodb.net/?appName=prog-webservices-s1-ej3-cluster";
 
 const client = new MongoClient(uri);
 const dbName = "cine-db";
