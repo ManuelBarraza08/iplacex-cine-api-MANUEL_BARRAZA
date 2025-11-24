@@ -9,10 +9,10 @@ import {
 
 const peliculaRoutes = express.Router();
 
-peliculaRoutes.post("/pelicula", handleInsertPeliculaRequest);
-peliculaRoutes.get("/peliculas", handleGetPeliculasRequest);
-peliculaRoutes.get("/pelicula/:id", handleGetPeliculaByIdRequest);
-peliculaRoutes.put("/pelicula/:id", handleUpdatePeliculaByIdRequest);
-peliculaRoutes.delete("/pelicula/:id", handleDeletePeliculaByIdRequest);
+peliculaRoutes.post("/", handleInsertPeliculaRequest);
+peliculaRoutes.get("/", handleGetPeliculasRequest);
+peliculaRoutes.get("/:id", handleGetPeliculaByIdRequest);
+peliculaRoutes.put("/:id", handleUpdatePeliciculaByIdRequest);
+peliculaRoutes.delete("/:id", handleDeletePeliculaByIdRequest);
 
 export default peliculaRoutes;
