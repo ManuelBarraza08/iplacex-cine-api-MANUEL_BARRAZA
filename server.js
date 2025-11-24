@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
   res.status(200).send("Bienvenido al cine Iplacex");
 });
 
-app.use("/api", peliculaRoutes);
-app.use("/api", actorRoutes);
+app.use("/api/peliculas", peliculaRoutes);
+app.use("/api/actores", actorRoutes);
 
 connectToDatabase()
   .then(() => {
