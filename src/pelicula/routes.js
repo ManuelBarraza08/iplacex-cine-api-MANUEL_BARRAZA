@@ -12,7 +12,7 @@ const peliculaRoutes = express.Router();
 peliculaRoutes.post("/", handleInsertPeliculaRequest);
 peliculaRoutes.get("/", handleGetPeliculasRequest);
 peliculaRoutes.get("/:id", handleGetPeliculaByIdRequest);
-peliculaRoutes.put("/:id", handleUpdatePeliciculaByIdRequest);
+peliculaRoutes.put("/:id", handleUpdatePeliculaByIdRequest);
 peliculaRoutes.delete("/:id", handleDeletePeliculaByIdRequest);
 
 export default peliculaRoutes;
