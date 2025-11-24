@@ -1,0 +1,17 @@
+{
+  "name": "cine-api",
+  "version": "1.0.0",
+  "description": "API REST para administración de películas favoritas de trabajadores y colaboradores en Iplacex",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch server.js"
+  },
+  "author": "Iplacex - MANUEL_BARRAZA",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
+  }
+}
